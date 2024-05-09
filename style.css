@@ -1,0 +1,68 @@
+body{
+    background-image: url(background\ img.jpg);
+}
+h2{
+    color:yellow ;
+    outline: 5px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 700px;
+    margin-left: 400px;
+    background-color: black;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.calc{
+    background-color: rgb(40, 30, 40);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: -5px -5px 10px rgb(139, 143, 119),5px 5px 10px rgb(114, 42, 62);
+    margin: 8px;
+;
+   
+}
+.calc form input{
+    border: 0;
+    outline: 0;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 10px rgb(181, 136, 240),5px 5px 10px rgb(84, 23, 128);
+    margin: 8px;
+
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+
+}
+form .display input{
+    flex: 1;
+    text-align: end;
+    font-size: 50px;
+    background-color: bisque;
+    color: chocolate;
+    box-shadow: -5px -5px 10px rgb(100, 240, 119),5px 5px 10px rgb(226, 136, 39);
+    margin: 8px;
+ ;
+}
+form .last input{
+    width: 100px;
+}
+form input.op1 {
+    color: azure;
+    background-color: red;
+}
+form input.op2{
+    background-color: rgb(131, 151, 244);
+    color: aqua;
+}
